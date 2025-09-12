@@ -1,6 +1,6 @@
 # React + Vite + grcode + tailwindcss
 
-This template provides a minimal setup to get React with vite
+This template provides a minimal setup to get started with a react website
 
 Currently, two official plugins are available:
 
