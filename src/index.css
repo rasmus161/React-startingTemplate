@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* use this instead of (import tailwindcss ?? ) !!!For future me 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
