@@ -11,6 +11,8 @@ import { ShowContainer } from "@/componets/Ui/sections/showContainer";
 // - add style for dark mode
 // - fix section not filling hole width  as intended
 // - add navigation into header component
+// - buttons ? 
+
 function App() {
   return (
     <div className="max-w-[1500px] flex flex-col  bg-gray-50 min-h-screen h-full mx-auto">
