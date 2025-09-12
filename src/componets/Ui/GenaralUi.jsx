@@ -1,0 +1,1 @@
+// putt components here like a default button all h1 p and so on elements as a collection
