@@ -11,7 +11,6 @@ import { ShowContainer } from "@/componets/Ui/sections/showContainer";
 // - add style for dark mode
 // - fix section not filling hole width  as intended
 // - add navigation into header component
-// - buttons ? 
 
 function App() {
   return (
