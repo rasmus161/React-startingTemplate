@@ -20,7 +20,7 @@ function App() {
       <main>
         {/* main section */}
         <Section className="bg-gray-200 min-h-50 ">
-          <h1 className="text-2xl text-center">
+          <h1 className="text-2xl text-center ">
             Vite + React + Router + tailwind css
           </h1>
         </Section>

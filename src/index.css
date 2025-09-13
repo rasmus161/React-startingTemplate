@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 /* use this instead of (import tailwindcss ?? ) !!!For future me 
 @tailwind base;
 @tailwind components;
@@ -19,6 +21,6 @@
 @layer components {
   /* main styles */
   html {
-    @apply bg-gray-300;
+    @apply bg-gray-300 ;
   }
 }
