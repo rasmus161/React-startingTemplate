@@ -8,14 +8,6 @@
 @tailwind utilities;
 */
 
-@layer components {
-  /* main styles */
-  html {
-    @apply bg-gray-300 ;
-  }
-}
-
-
 /*this is a class  for finding layout bugs
 
 * {
@@ -26,3 +18,9 @@
 
  */
 
+@layer components {
+  /* main styles */
+  html {
+    @apply bg-gray-300 ;
+  }
+}

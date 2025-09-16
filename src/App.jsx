@@ -7,8 +7,9 @@ import { Section } from "@/componets/Ui/GenaralUi";
 import { ShowContainer } from "@/componets/Ui/sections/showContainer";
 
 // dev Notes
-// - add some fonts to use + take a look at the implementation of fonts is it correct and working well
+// - add some fonts to use
 // - add style for dark mode
+// - fix section not filling hole width  as intended
 // - add navigation into header component
 
 function App() {
