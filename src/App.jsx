@@ -11,17 +11,17 @@ import { ShowContainer } from "@/componets/Ui/sections/showContainer";
 // - add style for dark mode
 // - fix section not filling hole width  as intended
 // - add navigation into header component
-// - make a simple wireframe to plans/wireframes as a starting point + example 
+// - make a simple wireframe to plans/wireframes as a starting point + example
 
 function App() {
   return (
-    <div className="max-w-[1500px] flex flex-col  bg-gray-50 min-h-screen h-full mx-auto">
+    <div className="mx-auto flex h-full min-h-screen max-w-[1500px] flex-col bg-gray-50">
       <Header className="bg-gray-400" />
 
       <main>
         {/* main section */}
-        <Section className="bg-gray-200 min-h-50 ">
-          <h1 className="text-2xl text-center ">
+        <Section className="min-h-50 bg-gray-200">
+          <h1 className="text-center text-2xl">
             Vite + React + Router + tailwind css
           </h1>
         </Section>
@@ -30,7 +30,7 @@ function App() {
           <ShowContainer />
         </Section>
       </main>
-      <Footer className=" bg-gray-400">
+      <Footer className="bg-gray-400">
         <p> Footer here</p>
       </Footer>
     </div>

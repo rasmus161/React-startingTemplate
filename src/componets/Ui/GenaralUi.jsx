@@ -4,16 +4,14 @@
 
 export function Section({ children, className = "" }) {
   return (
-    <section className={`w-full mx-auto  ${className}`}>{children}</section>
+    <section className={`mx-auto w-full ${className}`}>{children}</section>
   );
 }
 
 // container
 export function Container({ children, className = "" }) {
   return (
-    <div className={`my-10  p-8 shadow-md mx-5 ${className}`}>
-      {children}
-    </div>
+    <div className={`mx-5 my-10 p-8 shadow-md ${className}`}>{children}</div>
   );
 }
 

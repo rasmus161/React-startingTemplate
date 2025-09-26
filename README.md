@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 - tailwindcss (https://tailwindcss.com/docs/installation/using-vite)
 - pretier + eslint 
 - react router  (https://reactrouter.com/start/framework/installation)
-
+- tailwindlabs prettier for tailwindcss  (https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 
 consider adding if needed 
