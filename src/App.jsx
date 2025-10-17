@@ -10,7 +10,6 @@ import { Outlet } from "react-router-dom";
 // - add some fonts to use
 // - add style for dark mode
 // - fix section not filling hole width  as intended
-// - add navigation into header component
 // - make a simple wireframe to plans/wireframes as a starting point + example
 
 export default function App() {

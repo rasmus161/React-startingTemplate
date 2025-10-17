@@ -5,14 +5,16 @@ import "@/index.css";
 import App from "./App.jsx";
 import { Example } from "./pages/example.jsx";
 import { Index } from "./pages/index.jsx";
+import { NotFound } from "./pages/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <NotFound />,
     children: [
       { index: true, element: <Index /> },
-      { path: "/examplePage", element: <Example /> },
+      { path: "/example", element: <Example /> },
     ],
   },
 ]);
