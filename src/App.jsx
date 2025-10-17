@@ -1,10 +1,10 @@
 // main imports
 import { Footer } from "@/componets/Ui/Footer/Footer";
 import { Header } from "@/componets/Ui/header/header";
-import { Section } from "@/componets/Ui/GenaralUi";
 
 // section imports
-import { ShowContainer } from "@/componets/Ui/sections/showContainer";
+
+import { Outlet } from "react-router-dom";
 
 // dev Notes
 // - add some fonts to use
@@ -13,22 +13,14 @@ import { ShowContainer } from "@/componets/Ui/sections/showContainer";
 // - add navigation into header component
 // - make a simple wireframe to plans/wireframes as a starting point + example
 
-function App() {
+export default function App() {
   return (
     <div className="mx-auto flex h-full min-h-screen max-w-[1500px] flex-col bg-gray-50">
       <Header className="bg-gray-400" />
 
       <main>
         {/* main section */}
-        <Section className="min-h-50 bg-gray-200">
-          <h1 className="text-center text-2xl">
-            Vite + React + Router + tailwind css
-          </h1>
-        </Section>
-        {/*  containers of content*/}
-        <Section>
-          <ShowContainer />
-        </Section>
+        <Outlet />
       </main>
       <Footer className="bg-gray-400">
         <p> Footer here</p>
@@ -36,5 +28,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

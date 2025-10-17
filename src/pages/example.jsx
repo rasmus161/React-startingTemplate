@@ -1,6 +1,7 @@
-import { Container } from "../GenaralUi";
-import { Button } from "../buttons";
-export function ShowContainer() {
+import { Button } from "../componets/Ui/buttons";
+import { Container } from "../componets/Ui/GenaralUi";
+
+export function Example() {
   return (
     <>
       <Container className="rounded-lg bg-gray-200">
