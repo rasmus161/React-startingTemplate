@@ -1,10 +1,14 @@
 # React + Vite + grcode + tailwindcss || Webb app starting template
 
-This is a template that provides a minimal setup to get started with a react website styled with tailwindcss
+This is a template that provides a minimal setup to get started with a react website styled with tailwindcss with some components or not depending on what branch you chose to use 
+
+Main = includes components + react router
+BareBone = no extra components
 
 ## How the site works
 
 - just a simple template click on use this template and use it
+- if you are looking for a minimal no component starting point take a look at the BareBone branch 
 
 ## How to run
 
