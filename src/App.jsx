@@ -1,6 +1,6 @@
 // main imports
-import { Footer } from "@/componets/Ui/Footer/Footer";
-import { Header } from "@/componets/Ui/header/header";
+import { Footer } from "./componets/Ui/Footer/Footer"
+import { Header } from "./componets/Ui/header/header";
 
 // section imports
 
