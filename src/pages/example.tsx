@@ -1,4 +1,4 @@
-import {Button} from "../componets/Ui/buttons"
+import { Button } from "../componets/Ui/buttons";
 import { Container } from "../componets/Ui/GenaralUi";
 
 export function Example() {

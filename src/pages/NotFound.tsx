@@ -2,7 +2,12 @@ import { LogoLink } from "../componets/Ui/header/header";
 import { useRouteError } from "react-router-dom";
 
 export function NotFound() {
-  const error = useRouteError(); // error message object
+  type erroorObj = {
+    status: number;
+    statusText: string;
+    data: string;
+  };
+  const error = useRouteError() as erroorObj;
   console.error(error);
   return (
     <div className="not-found-container flex min-h-screen flex-col items-center justify-center font-sans">

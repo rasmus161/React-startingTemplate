@@ -73,15 +73,19 @@ export function HeaderNav({ navLinks }: HeaderNavProps) {
     </nav>
   );
 }
-
-export function Header() {
+type HeaderProps = {
+  className: string;
+};
+export function Header({ className = "" }: HeaderProps) {
   const navLinks: navLink[] = [
     { id: 0, name: "Home", linkTo: "/" },
     { id: 1, name: "example", linkTo: "/example" },
   ];
 
   return (
-    <header className="flex min-h-[75px] items-center bg-gray-400">
+    <header
+      className={` ${className} flex min-h-[75px] items-center bg-gray-400`}
+    >
       <LogoLink link={"/"} logoSrc={"./vite.svg"} className="" size={40} />
       <HeaderNav navLinks={navLinks} />
     </header>

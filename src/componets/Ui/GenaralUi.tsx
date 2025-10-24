@@ -2,8 +2,8 @@
 
 import type { ReactNode } from "react";
 type GeneralUiProps = {
-  children: ReactNode;
-  className: string;
+  children?: ReactNode;
+  className?: string;
 };
 type SectionProps = GeneralUiProps & {};
 

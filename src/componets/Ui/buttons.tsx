@@ -1,11 +1,10 @@
 import type { ReactNode } from "react";
 
 type ButtonProps = {
-  onClick: () => void;
-  children: ReactNode;
-  className: string;
-  
-}
+  onClick?: () => void;
+  children?: ReactNode;
+  className?: string;
+};
 
 export function Button({ onClick, children, className = "" }: ButtonProps) {
   return (
@@ -15,6 +14,5 @@ export function Button({ onClick, children, className = "" }: ButtonProps) {
     >
       {children}
     </button>
-    
   );
 }
