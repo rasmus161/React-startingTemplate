@@ -35,21 +35,22 @@ BareBone = no extra components
 
    This makes Vite accessible on your network IP, so Live Share guests can access it when you share the port (usually 5173).
 
-## Main pedendensies + ides what to use
+## Main dependencies + ides what to use
 
 Plugings used
 
 - grcode (https://github.com/svitejs/vite-plugin-qrcode)
 - tailwindcss (https://tailwindcss.com/docs/installation/using-vite)
+- tailwindlabs prettier for tailwindcss (https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - pretier + eslint
 - react router (https://reactrouter.com/start/framework/installation)
-- tailwindlabs prettier for tailwindcss (https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- typescript (https://www.typescriptlang.org/download/)
 
 consider adding if needed
 
 - icons from octicons_react (https://github.com/primer/octicons/tree/main/lib/octicons_react)
 - lucide icons_react (https://lucide.dev/guide/packages/lucide-react)
-
+- chadcn ui (https://ui.shadcn.com/docs/installation/vite)
 ## Troubleshooting
 
 - ***
