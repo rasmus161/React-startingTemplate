@@ -1,4 +1,4 @@
-import { Container } from "../componets/Ui/GenaralUi";
+import { Container } from "../components/ui/GenaralUi";
 
 export function Index() {
   return (

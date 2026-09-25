@@ -1,4 +1,4 @@
-import { LogoLink } from "../componets/Ui/header/header";
+import { LogoLink } from "../components/ui/header/header";
 import { useRouteError } from "react-router-dom";
 
 export function NotFound() {

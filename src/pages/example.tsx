@@ -1,5 +1,5 @@
-import { Button } from "../componets/Ui/buttons";
-import { Container } from "../componets/Ui/GenaralUi";
+import { Button } from "../components/ui/buttons";
+import { Container } from "../components/ui/GenaralUi";
 
 export function Example() {
   return (
